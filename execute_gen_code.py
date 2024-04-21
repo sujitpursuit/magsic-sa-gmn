@@ -1,4 +1,4 @@
-from gemini_generated_code import generated_code
+#from gemini_generated_code import generated_code
 
 def execute_code(code):
    

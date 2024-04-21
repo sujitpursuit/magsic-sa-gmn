@@ -93,8 +93,8 @@ def nl_python_gemini(user_prompt, seed):
     
     #print(f'Cleaned up code >>>>>>>>>>>>>>>>>>> \n{generated_code}')
     
-    utility.write_code_to_file(generated_code)
-    print(f'WRITTEN CODE TO FILE>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
+    #utility.write_code_to_file(generated_code)
+    #print(f'WRITTEN CODE TO FILE>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
     return generated_code
 
   

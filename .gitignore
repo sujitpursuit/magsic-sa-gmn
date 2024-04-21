@@ -1,0 +1,6 @@
+env/
+__pycache__/
+.github/
+*.log
+*.png
+gemini_generated_code.py

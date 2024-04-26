@@ -54,8 +54,8 @@ def prompt_process():
                 image_path = f'graph_{seed}.png'  # Replace with the path to your PNG file
                 try:
                     print(f'Sending back contents of file {image_path}')
-                   # return send_file(image_path, mimetype='image/png')
-                     return image_path
+                    return send_file(image_path, mimetype='image/png')
+                     #return image_path
                 except Exception as e:
                     return str(e), 404  # Return a 404 not found if there's any error
 

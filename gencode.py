@@ -58,7 +58,7 @@ def nl_python_gemini(user_prompt, seed):
             Include the question mark if present in the column name while generating dataframe.
             Do not use underscore to separate words in datframe column name. Keep original name with spaces
             use pandas read_csv and pass file to read the file content.
-            If the user asks you to plot a graph, use matplotlib,   get the data you need for it, do not use figure function,generate and save the image as graph_{seed}.png.
+            If the user asks you to plot a graph, then only generate graph, use matplotlib,   get the data you need for it, do not use figure function,generate and save the image as graph_{seed}.png.
             Adjust graph so that all values are seen. The image size should be adjusted so that every metrics is visible to the user. 
             Use plt.close() at the end to close.
             Put print debug statements after each line to show the progress of the code.

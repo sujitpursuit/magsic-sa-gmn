@@ -79,7 +79,7 @@ def nl_python_gemini(user_prompt, seed):
     #Wrap the generated code in a function named  generated_code(), create a file  named gemini_generated_code.py and put the function along with code in that file
     # Convert series using str.cat to string before using it.    
           
-#gemini-pro is not working in v1beta version
+#gemini-pro is not working in v1beta version(deprecated)
     models = genai.GenerativeModel('gemini-1.5-pro')
     response = models.generate_content(   prompt + "\n\n Generate python code for : " + user_prompt,
                                           generation_config=genai.types.GenerationConfig(temperature=0.0)

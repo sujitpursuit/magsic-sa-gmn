@@ -80,7 +80,7 @@ def nl_python_gemini(user_prompt, seed):
     # Convert series using str.cat to string before using it.    
           
 
-    models = genai.GenerativeModel('gemini-pro')
+    models = genai.GenerativeModel('gemini-1.5-pro')
     response = models.generate_content(   prompt + "\n\n Generate python code for : " + user_prompt,
                                           generation_config=genai.types.GenerationConfig(temperature=0.0)
                                       )

@@ -10,7 +10,7 @@ def call_gemini(text_input):
         text_input = ''.join(text_input)
    
 
-    models = genai.GenerativeModel('gemini-pro')
+    models = genai.GenerativeModel('gemini-1.5-pro')
     response = models.generate_content(   "Summarize the text :  "  + text_input,
                                           generation_config=genai.types.GenerationConfig(temperature=0.0)
                                       )

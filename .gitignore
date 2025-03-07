@@ -4,3 +4,9 @@ __pycache__/
 *.log
 *.png
 gemini_generated_code.py
+.env/
+.env
+.venv/
+.venv
+.vir/
+.vir
